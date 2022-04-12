@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    padding: 20vh 30vw;
+}
+
+fieldset {
+    padding: 2vh 2vw;
+}
+
+legend {
+    margin-left: 1vw;
+    font-size: 2rem;
+}
+
+label {
+    font-size: 2rem;
+    width: 13vw;
+    display: inline-block;
+    margin-top: 1vh;
+}
+
+.male,
+.female,
+.it,
+.design,
+.other {
+    display: inline;
+    padding-right: 5px;
+}
+
+input[type=text] {
+    font-size: 1.4rem;
+}
+
+input[type=email] {
+    font-size: 1.4rem;
+}
+
+input[type=radio],
+input[type=checkbox] {
+    margin-right: 5px;
+}
+
+.country {
+    margin-bottom: 2vh;
+}
+
+p {
+    display: inline-block;
+    font-size: 1.4rem;
+}
+
+.languages {
+    height: 55px;
+    width: 60px;
+}
+
+input[type=submit],
+input[type=button] {
+    background-color: white;
+    font-size: 1.4rem;
+    padding: 2px 5px;
+    border-radius: 5px;
+    border: 1px solid grey;
+    margin-top: 2vh;
+}
+
+input[type=submit] {
+    margin-right: 5px;
+}
+
+input[type=submit]:hover,
+input[type=button]:hover {
+    background-color: grey;
+    color: white;
+}
